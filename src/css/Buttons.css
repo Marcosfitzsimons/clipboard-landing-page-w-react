@@ -1,0 +1,43 @@
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 5.5rem;
+}
+
+.btn {
+    padding: 1em;
+    border-radius: 5rem;
+    color: var(--white);
+    background-color: var(--strongCyan);
+    font-weight: 600;
+    font-family: var(--ff);
+    font-size: 1.8rem;
+    border: none;
+    width: 90%;
+    align-self: center;
+    box-shadow: 0px 6px 5px 1px hsl(171, 70%, 30%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn--mac {
+    background-color: var(--lightBlue);
+    box-shadow: 0px 6px 5px 1px hsl(233, 53%, 51%);
+}
+
+@media (min-width: 785px) {
+    .buttons-container {
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        bottom: 8rem;
+    }
+    .btn {
+        width: 24rem;
+    }
+}

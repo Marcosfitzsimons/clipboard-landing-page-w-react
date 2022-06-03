@@ -1,0 +1,27 @@
+.computer-info-article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.computer-info-article__title {
+    color: var(--darkGrayishBlue);
+    font-size: 2.5rem;
+}
+.computer-info-article__text {
+    color: var(--grayishBlue);
+    width: 85%;
+    align-self: center;
+    line-height: 3rem;
+}
+
+@media (min-width: 785px) {
+.computer-info-article {
+    text-align: left;
+}
+.computer-info-article__text {
+    width: 75%;
+    align-self: flex-start;
+}
+}

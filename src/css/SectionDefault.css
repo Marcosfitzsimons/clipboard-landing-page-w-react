@@ -1,0 +1,29 @@
+.section-default {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.8rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.section-default__title {
+    color: var(--darkGrayishBlue);
+    width: 85%;
+    line-height: 3.8rem;
+    font-size: 2.8rem;
+}
+
+.section-default__text {
+    color: var(--grayishBlue);
+}
+
+@media (min-width: 785px) {
+    .section-default__title {
+        font-size: 3.5rem;
+    }
+    .section-default__text {
+        font-size: 1.8rem;
+        width: 60%;  
+    }
+}

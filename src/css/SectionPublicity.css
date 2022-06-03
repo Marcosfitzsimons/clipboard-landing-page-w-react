@@ -1,0 +1,31 @@
+.publicity-section {
+    margin-top: 15rem;
+    padding-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.publicity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.publicity-img-container {
+    cursor: pointer;
+}
+
+@media (min-width: 785px) {
+    .publicity-container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 15rem;
+        margin-top: 3rem;
+    }
+    .publicity-section {
+        padding-bottom: 10rem;
+    }
+}
